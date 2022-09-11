@@ -198,7 +198,6 @@ p {
 
 }
 
-
 .rodape {
     display: block;
     background-color: var(--fundo-menu);
@@ -211,6 +210,13 @@ p {
 .texto {
     padding: 15px;
     text-align: justify;
+}
+
+.shadow {
+    margin: 20px;
+    box-shadow: var(--sombra-padrao);
+    border: 1px solid var(--cor-letra-padrao);
+    border-radius: 20px;
 }
 
 #home {
