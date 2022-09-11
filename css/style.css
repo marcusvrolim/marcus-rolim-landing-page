@@ -81,6 +81,14 @@ p {
     margin-bottom: 10px;
 }
 
+.conteudoQuemSou {
+    background-color: var(--fundo-secundario);
+    border: solid 3px var(--borda-padrao);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
 .curriculo {
     display: flex;
     flex-direction: column;
