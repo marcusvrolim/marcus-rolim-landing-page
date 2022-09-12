@@ -81,6 +81,11 @@ p {
     margin-bottom: 10px;
 }
 
+.conteudo {
+    display: flex;
+    justify-content: center;
+}
+
 .conteudoQuemSou {
     background-color: var(--fundo-secundario);
     border: solid 3px var(--borda-padrao);
