@@ -1,4 +1,5 @@
 :root {
+    font-size: 1.2em;
     --fundo-padrao: rgb(50, 50, 50);
     --fundo-secundario: rgb(80, 80, 80);
     --fundo-menu: rgb(30, 30, 30);
@@ -26,7 +27,7 @@ a:hover {
 }
 
 body {
-    background-color: var(--fundo-padrao);    
+    background-color: var(--fundo-secundario);    
 }
 
 h1 {
@@ -58,10 +59,12 @@ p {
 .bloco {
     justify-content: center;
     margin: auto;
+    background-color: var(--fundo-padrao);
     max-width: 1200px;
 }
 
 .blocoImgPerfil {
+    display: flex;
     margin: 20px;
 }
 
@@ -72,6 +75,7 @@ p {
     border: solid 3px var(--borda-padrao);
     border-radius: 20px;
     background-color: var(--fundo-secundario);
+    height: 150px;
     margin: 10px;
     padding: 10px;
 }
@@ -234,17 +238,17 @@ p {
 
 #home {
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 15px;
-    flex-wrap: wrap;
+}
+
+#contato {
+    border-radius: 20px;
 }
 
 @media only screen and (max-width: 992px) {
 
-    .bloco {
-        
-    }
-    
     .blocoTitulo {
         margin: auto;
         margin-top: 15px;
