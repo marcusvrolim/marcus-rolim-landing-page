@@ -145,6 +145,11 @@ p {
     width: 100%;
 }
 
+.logo img {
+    width: 250px;
+    height: 50px;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -212,7 +217,11 @@ p {
     border-radius: 50%;
     padding: 10px;
     box-shadow: var(--sombra-padrao);
+}
 
+.redeSocial img {
+    width: 50px;
+    height: 50px;
 }
 
 .rodape {
