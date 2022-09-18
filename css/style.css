@@ -261,6 +261,7 @@ p {
     .blocoTitulo {
         margin: auto;
         margin-top: 15px;
+        padding: 10px;
     }
     
     .menu {
@@ -353,9 +354,4 @@ p {
     .navegacaoDrop:hover .navegacaoBotao {
         background-color: var(--fundo-secundario);
     }
-
-
-
-
-
 }
