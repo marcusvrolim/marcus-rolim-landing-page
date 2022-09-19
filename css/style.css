@@ -53,7 +53,7 @@ h3 {
 }
 
 p {
-    padding: 5px;
+    padding-bottom: 15px;
 }
 
 .bloco {
@@ -65,7 +65,8 @@ p {
 
 .blocoImgPerfil {
     display: flex;
-    margin: 20px;
+    margin: 15px;
+    
 }
 
 .blocoTitulo {
@@ -75,9 +76,12 @@ p {
     border: solid 3px var(--borda-padrao);
     border-radius: 20px;
     background-color: var(--fundo-secundario);
-    height: 150px;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
+}
+
+.blocoTitulo span {
+    margin-bottom: 10px;
 }
 
 .contato {
@@ -146,7 +150,7 @@ p {
 }
 
 .logo img {
-    width: 250px;
+    width: 200px;
     height: 50px;
 }
 
@@ -156,7 +160,7 @@ p {
     justify-content: space-between;
     align-items: center;
     padding: 5px 15px;
-    background-color: var(--fundo-menu);
+    background-color: var(--fundo-padrao);
     box-shadow: var(--sombra-padrao);
 }
 
@@ -191,10 +195,6 @@ p {
     padding: 0 15px;
 }
 
-.negrito {
-    font-weight: bold;
-}
-
 .paragrafo {
     text-indent: 30px;
     text-transform: capitalize;
@@ -226,7 +226,7 @@ p {
 
 .rodape {
     display: block;
-    background-color: var(--fundo-menu);
+    background-color: var(--fundo-padrao);
     text-align: center;
     font-size: 0.8em;
     padding: 20px;
