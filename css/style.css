@@ -3,7 +3,7 @@
     --fundo-padrao: rgb(50, 50, 50);
     --fundo-secundario: rgb(80, 80, 80);
     --fundo-menu: rgb(30, 30, 30);
-    --borda-padrao: whitesmoke;
+    --borda-padrao: #dcdcdc;
     --cor-letra-padrao: #dcdcdc;
     --cor-letra-hover-verde: #107D67;
     --fonte-titulo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -73,7 +73,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid 3px var(--borda-padrao);
+    border: solid 1px var(--borda-padrao);
     border-radius: 20px;
     background-color: var(--fundo-secundario);
     margin: 10px;
@@ -96,11 +96,42 @@ p {
 
 .conteudoQuemSou {
     background-color: var(--fundo-secundario);
-    border: solid 3px var(--borda-padrao);
+    border: solid 1px var(--borda-padrao);
     border-radius: 20px;
     padding: 15px;
     margin: 20px;
 }
+
+.curso {
+    display: flex;
+    align-items: center;
+    background-color: var(--fundo-secundario);
+    border: solid 1px var(--borda-padrao);
+    border-radius: 20px;
+    margin: 20px;
+    min-width: 300px;
+}
+
+.cursoExtra {
+    flex-direction: column;
+}
+
+.cursos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cursoImg {
+    margin: 10px;
+}
+
+.cursoItem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
 
 .curriculo {
     display: flex;
@@ -110,14 +141,14 @@ p {
 
 .curriculoItem {
     background-color: var(--fundo-secundario);
-    border: solid 3px var(--borda-padrao);
+    border: solid 1px var(--borda-padrao);
     border-radius: 20px;
     padding: 15px;
 }
 
 .imgPerfil {
     display: flex;
-    border: solid 3px var(--borda-padrao);
+    border: solid 1px var(--borda-padrao);
     border-radius: 50%;
     background-color: var(--fundo-secundario);
     margin: auto;
@@ -129,7 +160,7 @@ p {
     margin: 15px;
     justify-content: center;
     align-items: flex-start;
-    border: solid 3px var(--borda-padrao);
+    border: solid 1px var(--borda-padrao);
     border-radius: 20px;
 
 }
